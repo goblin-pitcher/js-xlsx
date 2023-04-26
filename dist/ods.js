@@ -10,7 +10,7 @@ var get_utils = function() {
 		return require('../' + 'xlsx').utils;
 	} catch(e) {
 		try { return require('./' + 'xlsx').utils; }
-		catch(ee) { return require('xl' + 'sx').utils; }
+		catch(ee) { return require('xlsx-fix-style').utils; }
 	}
 	throw new Error("Cannot find XLSX utils");
 };

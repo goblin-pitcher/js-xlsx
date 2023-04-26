@@ -1,6 +1,6 @@
 {
   "name": "js-xlsx",
-  "homepage": "https://github.com/SheetJS/js-xlsx",
+  "homepage": "https://github.com/goblin-pitcher/js-xlsx",
   "main": "dist/xlsx.js",
   "version": "_VERSION_",
   "ignore": [
